@@ -1,6 +1,6 @@
 # Supporting Data — Same-Project Schedule-Revision Audit
 
-This repository is the **public R3R7 supporting-data repository** for:
+This is the **public R3R7 companion repository** for:
 
 **More Projects, Not Necessarily Earlier Operation: A Same-Project Audit of Reported Schedule Revisions in Global CCUS Records with a Hydrogen Portability Test**
 
@@ -16,19 +16,23 @@ The study audits persistent project records across successive database releases 
 
 The primary empirical application is CCUS. Hydrogen is the principal portability test. EIA-860M and Berkeley Lab *Queued Up* are additional direct checks. Cross-domain percentages are **not pooled**.
 
-## Repository structure
+## Repository scope
 
-- `data/` — browsable derived audit summaries, adapters, source manifests, horizon results, identity checks, claim-evidence maps, and lightweight provenance objects.
-- `archive/CCS_FGID_carbon123R3R7_Supplementary_Data.zip` — the **exact audited R3R7 Supplementary Data ZIP supplied with the manuscript**.
-- `REPOSITORY_COMPLETENESS.md` — archive identity, SHA-256, and completeness statement.
-- `CITATION.cff` — citation metadata.
-- `.zenodo.json` — metadata prepared for optional Zenodo archival release.
+The repository is complete for its declared role as the **public browsable companion layer** for the R3R7 submission.
 
-The exact archived Supplementary Data ZIP has SHA-256:
+- `data/` contains machine-readable audit summaries, adapters, source manifests, horizon results, identity checks, claim-evidence maps, claim-boundary records, and other lightweight provenance/reproduction objects.
+- `DATA_INVENTORY.md` states exactly which larger longitudinal files and binary workbooks are carried in the journal Supplementary Data archive rather than duplicated individually in GitHub.
+- `CITATION.cff` provides citation metadata.
+- `LICENSE_AND_THIRD_PARTY_NOTICE.md` records repository-level and third-party reuse boundaries.
+- `.zenodo.json` and `ZENODO_DEPOSIT_FIELDS.md` are retained only to support an optional later Zenodo archival DOI.
 
-`6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
+The exact R3R7 Supplementary Data ZIP supplied to the journal has:
 
-Its internal manifest contains 32 declared supporting objects and was previously validated 32/32 for presence, size, and SHA-256.
+- size: **250,219 bytes**
+- SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
+- internal manifest: **32 declared objects, previously validated 32/32 for presence, size, and SHA-256**
+
+The journal Supplementary Data archive remains the authoritative complete current submission package. GitHub is intentionally optimized for public inspection rather than duplicating every large CSV/workbook twice.
 
 ## Key claim boundaries
 
@@ -39,11 +43,11 @@ Its internal manifest contains 32 declared supporting objects and was previously
 
 ## Reproducibility boundary
 
-The exact historical CCUS replay archive named in the manuscript is **not included here**. Derived files in this repository must not be presented as substitutes for that unavailable historical original.
+The exact historical CCUS replay archive named in the manuscript is **not included here or in the current R3R7 Supplementary Data package**. Derived files must not be presented as substitutes for that unavailable historical original.
 
 ## Source and licensing notes
 
-This repository contains derived audit materials and the exact audited R3R7 Supplementary Data ZIP. Third-party content and source-derived material remain subject to the licences and terms of the original providers.
+This repository contains derived audit materials rather than a redistribution mirror of all third-party raw workbooks.
 
 - IEA CCUS Projects Database: CC BY 4.0.
 - IEA Hydrogen Production and Infrastructure Projects Database: CC BY 4.0.
@@ -51,11 +55,11 @@ This repository contains derived audit materials and the exact audited R3R7 Supp
 - Berkeley Lab *Queued Up* data file: CC BY 4.0.
 - Other source-specific rights remain with their respective owners.
 
-Author-generated documentation and derived audit tables are intended for scholarly reuse with attribution.
+Author-generated documentation and derived audit tables are intended for scholarly reuse with attribution. Third-party content and source-derived material remain subject to the original source licences and terms.
 
 ## Citation
 
-Please cite the associated manuscript and this repository. If a Zenodo DOI is assigned later, that DOI will be added here and to `CITATION.cff`.
+Please cite the associated manuscript and this repository. If a Zenodo DOI is assigned later, it can be added here and to `CITATION.cff`; a Zenodo DOI is not required for the current Systems submission.
 
 ## Version
 
