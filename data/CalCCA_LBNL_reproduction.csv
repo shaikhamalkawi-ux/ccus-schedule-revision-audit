@@ -1,0 +1,4 @@
+metric,value_mw,reported_rounded_mw,source_logic
+CAISO active geothermal component capacity,62.435,62.5,sum geothermal component MW only; 53.0 + 9.435
+IID active geothermal component capacity,894.0,894.0,sum active geothermal component MW in IID
+Non-California West active geothermal component capacity,823.81,824.0,NVE 612.1 + PacifiCorp 143.71 + PNM 58 + BPA 10

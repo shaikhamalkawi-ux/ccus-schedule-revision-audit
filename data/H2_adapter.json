@@ -1,0 +1,14 @@
+{
+  "protocol": "schedule_revision_audit",
+  "domain": "low-emissions hydrogen production projects",
+  "database": "IEA Hydrogen Projects Database (quality-checked Odenweller/Ueckerdt archive)",
+  "record_id": "reference",
+  "release_date": {"2021": "2021-10", "2022": "2022-10", "2023": "2023-10"},
+  "status_raw": "status",
+  "status_harmonization": {"Under construction": "FID/Construction", "FID": "FID/Construction"},
+  "planned_milestone": "date online",
+  "baseline_weight": "2021 cap_mwel held fixed for same-record horizon analysis",
+  "component": "hydrogen production project",
+  "physical_outcome": "manually validated 2023 outcome workbook (benchmark layer only)",
+  "claim_boundary": "reported online-year revision is not, by itself, a physical project delay"
+}

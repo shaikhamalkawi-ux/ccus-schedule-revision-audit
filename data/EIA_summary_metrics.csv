@@ -1,0 +1,34 @@
+metric,value,unit
+Dec2024 Planned valid generator records,1905,records
+Jun2025 Planned valid generator records,1996,records
+Dec2025 Planned valid generator records,1946,records
+Dec24-Dec25 still Planned exact-ID cohort,1205,records
+Strict same detailed native status cohort,933,records
+Strict cohort schedule revisions,407,records
+Strict cohort schedule revision rate,0.4362272240085745,fraction
+Strict cohort later,404,records
+Strict cohort unchanged,526,records
+Strict cohort earlier,3,records
+Strict cohort later share among revised,0.9926289926289926,fraction
+Strict cohort median signed revision among revised,12,months
+Coarse still-Planned schedule revision rate,0.5012448132780083,fraction
+Coarse still-Planned later,578,records
+Coarse still-Planned unchanged,601,records
+Coarse still-Planned earlier,26,records
+Dec2024 plan-for-2025 cohort,870,generators
+Dec2024 plan-for-2025 baseline nameplate,63665.7,MW
+Dec2025 outcome Operating,551,generators
+Dec2025 outcome Operating baseline weight,40784.4,MW
+Dec2025 outcome Still Planned,298,generators
+Dec2025 outcome Still Planned baseline weight,21531.7,MW
+Dec2025 outcome Canceled/Postponed,16,generators
+Dec2025 outcome Canceled/Postponed baseline weight,1125.0,MW
+Dec2025 outcome Missing exact ID,5,generators
+Dec2025 outcome Missing baseline weight,224.6,MW
+Baseline 2025 cohort Operating share by baseline MW,0.6406023965808906,fraction
+Still-Planned baseline-2025 records later at Dec2025,298,records
+Still-Planned baseline-2025 median shift,11,months
+Dec2025 generators with actual Operating Year 2025,872,generators
+Dec2025 actual 2025 nameplate additions,53743.3,MW
+Actual 2025 additions from baseline Dec24 target-2025 cohort,41206.5,MW final endpoint weights
+Actual 2025 additions not in Dec24 target-2025 cohort,12536.8,MW final endpoint weights

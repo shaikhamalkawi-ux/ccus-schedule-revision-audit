@@ -1,0 +1,16 @@
+{
+  "source_hashes": {
+    "2024": "832f21cf62a3c333b1834455deecbcbc99b80cb65e43855b7a48355fec838a39",
+    "2025": "d816467f629a13ef4013dee000129d61f8e4d7fcd8ba514c404a4e140dfec991",
+    "2026": "794582d3281c6a305e9615fcfec3fae9dc85be2165216d33760b677e976a08b6"
+  },
+  "full_release_rows": {"2024": 32512, "2025": 36440, "2026": 38201},
+  "duplicate_composite_entity_qid_keys": {"2024": 22, "2025": 4, "2026": 135},
+  "unique_exact_key_matches": {"2024_2025": 29790, "2025_2026": 35171, "2024_2026": 29223, "all_three": 29003},
+  "primary_three_release_active_propdate_complete_n": 4464,
+  "strict_qdate_state_n": 4095,
+  "strict_qdate_state_same_type_n": 3746,
+  "same_ia_phase_n": 1203,
+  "codebook_2026_note": "Combine q_id with entity to form a unique identifier across the full dataset.",
+  "observed_exception": "The released files contain some duplicate entity+q_id combinations; all duplicate composite keys are excluded from primary same-record inference."
+}

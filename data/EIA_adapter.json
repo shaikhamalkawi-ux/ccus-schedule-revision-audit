@@ -1,0 +1,26 @@
+{
+  "protocol": "schedule_revision_audit",
+  "canonical_fields": {
+    "record_id": "domain-stable or conservatively constructed record identity",
+    "release_date": "dated release/snapshot",
+    "status_raw": "native status",
+    "status_harmonized": "optional predeclared mapping",
+    "planned_milestone": "planned operation/COD/start date",
+    "baseline_weight": "fixed baseline capacity/quantity",
+    "component": "domain-specific component",
+    "phase": "domain-specific phase",
+    "outcome_date": "optional physical/commercial onset",
+    "actual_output": "optional measured output",
+    "source_provenance": "source/version/hash/definition metadata"
+  },
+  "EIA860M_adapter": {
+    "record_id": ["Plant ID", "Generator ID"],
+    "status_raw": "Status",
+    "planned_milestone": ["Planned Operation Year", "Planned Operation Month"],
+    "baseline_weight": "Nameplate Capacity (MW)",
+    "component": "Technology",
+    "phase": null,
+    "outcome_date": ["Operating Year", "Operating Month"],
+    "actual_output": "EIA-923 only if commensurate; not populated in this first pass"
+  }
+}

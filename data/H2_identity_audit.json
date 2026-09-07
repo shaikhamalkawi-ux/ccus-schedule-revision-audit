@@ -1,0 +1,9 @@
+{
+  "raw_rows": {"2021": 609, "2022": 875, "2023": 1267},
+  "duplicate_reference_ids": {"2021": {}, "2022": {}, "2023": {"5000": 2}},
+  "unique_reference_matches": {"2021_2022": 605, "2022_2023": 801, "2021_2023": 549, "all_three": 549},
+  "primary_identity_rule": "native IEA reference number after within-release uniqueness audit",
+  "hold_rule": "duplicated native reference within a release is excluded from same-record inference",
+  "notable_hold": "2023 reference 5000 occurs twice and is excluded from same-record analyses",
+  "strict_sensitivity": "same native reference + exact normalized project name + same country across all three releases"
+}
