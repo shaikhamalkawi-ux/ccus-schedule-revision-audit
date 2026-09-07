@@ -1,0 +1,8 @@
+claim,main_location,supplement_evidence,machine_readable
+181/371 CCUS endpoint values revised,Results 4.1,S36-S44; Fig S7,CCUS_PRIMARY_371.csv
+78-395 vs 95 status changers,Methods/Discussion,"S17, S26-S27; Fig S8",CCUS identity certificate / historical exact archive
+Coder repeatability,Results 4.5,S35 A-C,CCUS coder audit note / original coder files when attached
+Hydrogen 102/190,Portability,S57-S60; Fig S9,H2_primary190.csv
+EIA 407/933,Portability table,S61-S64; Fig S10,EIA_933.csv
+LBNL 2303/4464,Portability table,S65-S70; Fig S11,LBNL_4464.csv
+CalCCA planning relevance,Discussion,S71,CalCCA_LBNL_reproduction.csv
