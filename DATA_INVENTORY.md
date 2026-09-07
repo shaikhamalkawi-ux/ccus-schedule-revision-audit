@@ -1,6 +1,6 @@
 # Data Inventory and Availability Boundary
 
-This file states exactly what is browsable in GitHub and what remains in the complete R3R7 Supplementary Data archive submitted with the manuscript.
+This file states exactly what is browsable in GitHub and what remains in the complete R3R7 Supplementary Data archive uploaded with the manuscript.
 
 ## A. Browsable GitHub layer
 
@@ -29,9 +29,9 @@ The repository `data/` directory contains lightweight derived/provenance objects
 
 These files are intended for rapid inspection of the audit definitions, provenance, reported summaries, horizon effects, and claim boundaries.
 
-## B. Complete submitted R3R7 supporting-data archive
+## B. Complete R3R7 Supplementary Data archive uploaded with the manuscript
 
-The journal Supplementary Data archive additionally contains larger longitudinal datasets and binary workbooks, including:
+The journal Supplementary Data archive additionally contains the larger longitudinal datasets and binary workbooks, including:
 
 - `CCUS_PRIMARY_371.csv`
 - `CCUS_ExternalTiming_EvidenceRegister.xlsx`
@@ -46,17 +46,26 @@ The journal Supplementary Data archive additionally contains larger longitudinal
 - coder-contribution preservation documentation
 - full file manifests and SHA-256 records
 
-Complete-current-package verification:
+Exact submitted archive identity:
 
-`CCS_FGID_R3R7_Zenodo_FINAL_DEPOSIT.zip`
+- filename: `CCS_FGID_carbon123R3R7_Supplementary_Data.zip`
+- size: `250219` bytes
+- SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
+- internal manifest: `32/32` declared objects previously verified for presence, size, and SHA-256
 
-- size: `256944` bytes
-- entries: `40`
-- SHA-256: `39666169e1f24687255c2c58cd79d2e268538780cf8b0a04bac60d263afe30dc`
+The larger files are not duplicated individually in GitHub because the journal Supplementary Data ZIP is the authoritative complete current submission package. GitHub provides the public browsable companion layer.
 
-## C. Historical archive limitation
+## C. Optional future archival DOI
 
-The unavailable historical exact CCUS replay archive is **not** part of either layer. Its documented expected SHA-256 is:
+A broader 40-file Zenodo-ready archival bundle has been prepared locally with SHA-256:
+
+`39666169e1f24687255c2c58cd79d2e268538780cf8b0a04bac60d263afe30dc`
+
+No Zenodo DOI has been assigned yet, and the current Systems submission does not depend on one.
+
+## D. Historical archive limitation
+
+The unavailable historical exact CCUS replay archive is **not** part of either the GitHub companion layer or the current journal Supplementary Data package. Its documented expected SHA-256 is:
 
 `3f191871ba0ebf9e2f00290a00abfdf86dc4d7d319dac7eee5384a0c491e9d09`
 
