@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these supporting materials, please cite the associated manuscript and the archived data release."
+message: "If you use these supporting materials, please cite the associated manuscript and this repository."
 title: "Supporting Data for More Projects, Not Necessarily Earlier Operation"
 type: dataset
 authors:
@@ -30,6 +30,5 @@ keywords:
   - persistent identifiers
   - reproducibility
   - energy transition
-license: CC-BY-4.0
 repository-code: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
-url: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
+license: CC-BY-4.0
