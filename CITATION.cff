@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use these supporting materials, please cite the associated manuscript and the archived data release."
+title: "Supporting Data for More Projects, Not Necessarily Earlier Operation"
+type: dataset
+authors:
+  - family-names: "Malkawi"
+    given-names: "Ghassan"
+  - family-names: "Elsayed"
+    given-names: "Ahmed Abdelaziz"
+  - family-names: "Alnuaimi"
+    given-names: "Noura"
+  - family-names: "Abusharkh"
+    given-names: "Hani"
+  - family-names: "Lataifeh"
+    given-names: "Anas"
+  - family-names: "Alazzam"
+    given-names: "Azmi"
+  - family-names: "Khalil"
+    given-names: "Akhtar"
+  - family-names: "Kamalov"
+    given-names: "Firuz"
+  - family-names: "Hussein"
+    given-names: "Bakeel"
+keywords:
+  - CCUS
+  - hydrogen
+  - database versioning
+  - project databases
+  - schedule revision
+  - persistent identifiers
+  - reproducibility
+  - energy transition
+license: CC-BY-4.0
