@@ -1,23 +1,44 @@
-# Repository completeness — R3R7
+# Repository Completeness — R3R7
 
-This GitHub repository contains two complementary layers:
+## Scope of completeness
 
-1. `data/` — browsable derived audit summaries, manifests, horizon results, identity checks, claim-evidence maps, and other lightweight supporting objects.
-2. `archive/CCS_FGID_carbon123R3R7_Supplementary_Data.zip` — the **exact audited R3R7 Supplementary Data ZIP submitted with the manuscript**.
+This repository is **complete for the public companion role declared in the manuscript/submission**. It is not intended to be a second byte-for-byte copy of every large file already uploaded as journal Supplementary Data.
 
-## Exact archive identity
+### Public GitHub layer
 
-- File: `CCS_FGID_carbon123R3R7_Supplementary_Data.zip`
-- Size: 250,219 bytes
+The repository provides:
+
+- citation metadata (`CITATION.cff`);
+- source/licence boundaries;
+- claim-evidence and claim-boundary tables;
+- domain adapters;
+- source manifests;
+- horizon-result summaries;
+- identity audits;
+- external-policy reproduction summaries;
+- repository/data inventory documentation;
+- optional Zenodo metadata for a later archival DOI.
+
+### Complete current journal supporting-data layer
+
+The exact R3R7 Supplementary Data ZIP uploaded with the manuscript is the authoritative complete current supporting-data package:
+
+- filename: `CCS_FGID_carbon123R3R7_Supplementary_Data.zip`
+- size: **250,219 bytes**
 - SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
-- Internal supplementary-data manifest: 32 declared objects; previously validated 32/32 for presence, size, and SHA-256.
+- internal manifest: **32 declared objects, previously validated 32/32 for presence, size, and SHA-256**
 
-The archive contains the complete R3R7 supporting-data package, including the larger longitudinal CSV files and binary workbooks that are not all duplicated individually in the browsable `data/` directory.
+`DATA_INVENTORY.md` lists the larger CSV/workbook objects retained in that journal archive rather than duplicated individually in GitHub.
 
-## Reproducibility boundary
+## Historical limitation
 
-The historical exact CCUS replay archive described in the manuscript is **not** part of R3R7 and is not contained here. No derived file in this repository should be represented as a substitute for that unavailable historical original.
+The historical exact CCUS replay archive described in the manuscript is unavailable. It is not included in GitHub or the current Supplementary Data package, and no derived file should be described as a substitute for that historical original.
 
-## Repository version
+## Submission conclusion
 
-This completeness record corresponds to the R3R7 scientific-freeze submission package.
+For the current R3R7 Systems submission, the combination of:
+
+1. the journal Supplementary Data ZIP, and
+2. this public GitHub companion repository
+
+provides the intended current-package reproducibility/provenance support without changing the scientific result set.
