@@ -1,10 +1,10 @@
-# Repository Status — R3R7R2 Systems Submission Closure
+# Repository Status — R3R7R3 Systems Final Audit Closure
 
 **Status: COMPLETE FOR THE DECLARED PUBLIC-COMPANION ROLE AND READY FOR SYSTEMS SUBMISSION**
 
 - Repository visibility: public
 - Scientific baseline: R3R7 freeze
-- Manuscript editorial closure: R3R7R2
+- Manuscript editorial/provenance closure: R3R7R3
 - GitHub role: browsable derived-data, provenance, claim-boundary, and audit-support companion
 - Complete current supporting-data role: journal Supplementary Data ZIP
 - Zenodo DOI: not assigned; optional and not required for the current Systems submission
@@ -14,18 +14,14 @@
 
 Exact Supplementary Data ZIP used by the Systems submission:
 
-- size: **250,219 bytes**
-- SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
-- internal manifest: **32/32 declared objects verified for presence, size, and SHA-256**
+- size: **252,689 bytes**
+- SHA-256: `9847bf03a50c62f7dc684e9feb860c3960ebb2541f12d3bd9ff44760dde8135f`
+- internal manifest: **32 declared research/support objects verified for presence, size, and SHA-256**, plus package-control manifest/SHA files
 
-Prepared broader archival/Zenodo bundle:
-
-- size: **256,944 bytes**
-- entries: **40**
-- SHA-256: `39666169e1f24687255c2c58cd79d2e268538780cf8b0a04bac60d263afe30dc`
+R3R7R3 also replaces the internal coder-preservation note with `CCUS_Coder_Repeatability_Note.md`, corrects the CalCCA CAISO provenance/rounding interpretation, and aligns the claim-evidence map with files actually present.
 
 ## Important boundary
 
-The GitHub repository intentionally does not duplicate every large longitudinal CSV or binary workbook that is already carried in the journal Supplementary Data ZIP. `DATA_INVENTORY.md` identifies that separation explicitly. This avoids presenting GitHub as a different analytical package from the submitted supplement.
+The GitHub repository intentionally does not duplicate every large longitudinal CSV or binary workbook already carried in the journal Supplementary Data ZIP. `DATA_INVENTORY.md` identifies that separation explicitly.
 
-The R3R7R2 manuscript changes are terminology, reader-clarity, citation-label, and submission-polish changes only. No scientific result, dataset, cohort, equation, or claim boundary is changed.
+The R3R7R3 changes are editorial, provenance, mathematical-definition, visual-consistency, and submission-package corrections only. The core scientific results, cohorts, estimands, equations, and claim boundaries are unchanged from the R3R7 scientific freeze.
