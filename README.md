@@ -20,7 +20,7 @@ The primary empirical application is CCUS. Hydrogen is the principal portability
 
 The repository is complete for its declared role as the **public browsable companion layer** for the Systems submission.
 
-- `data/` contains machine-readable audit summaries, adapters, source manifests, horizon results, identity checks, claim-evidence maps, claim-boundary records, and other lightweight provenance/reproduction objects.
+- `data/` contains machine-readable audit summaries, adapters, source manifests, horizon results, identity checks, claim-evidence maps, claim-boundary records, the publication-facing coder-repeatability note, and other lightweight provenance/reproduction objects.
 - `DATA_INVENTORY.md` states which larger longitudinal files and binary workbooks are carried in the journal Supplementary Data archive rather than duplicated individually in GitHub.
 - `CITATION.cff` provides citation metadata.
 - `LICENSE_AND_THIRD_PARTY_NOTICE.md` records repository-level and third-party reuse boundaries.
@@ -28,11 +28,15 @@ The repository is complete for its declared role as the **public browsable compa
 
 The exact supporting-data ZIP used by the Systems submission has:
 
-- size: **250,219 bytes**
-- SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
-- internal manifest: **32 declared objects, verified 32/32 for presence, size, and SHA-256**
+- size: **252,689 bytes**
+- SHA-256: `9847bf03a50c62f7dc684e9feb860c3960ebb2541f12d3bd9ff44760dde8135f`
+- internal manifest: **32 declared research/support objects, verified for presence, size, and SHA-256; the manifest and SHA list are additional package-control files**
 
 The journal Supplementary Data archive remains the authoritative complete current supporting-data package. GitHub is intentionally optimized for public inspection rather than duplicating every large CSV/workbook twice.
+
+## CalCCA provenance clarification
+
+CalCCA's reported 62.5 MW CAISO geothermal quantity is cited to the CAISO Public Queue report, whereas its 894 MW IID and 824 MW non-California West quantities are based on Berkeley Lab *Queued Up*. The LBNL-derived CAISO component sum in this repository is 62.435 MW, 0.065 MW below the CalCCA value, and is treated as approximate cross-source agreement rather than exact rounding reproduction.
 
 ## Key claim boundaries
 
@@ -43,7 +47,7 @@ The journal Supplementary Data archive remains the authoritative complete curren
 
 ## Reproducibility boundary
 
-The exact historical CCUS replay archive named in the manuscript is **not included here or in the current Supplementary Data package**. Derived files must not be presented as substitutes for that unavailable historical original.
+The exact historical CCUS replay archive named in the manuscript is **not included here or in the current Supplementary Data package**. Derived files must not be presented as substitutes for that unavailable historical original. The original two-coder workbooks are likewise not included; `data/CCUS_Coder_Repeatability_Note.md` retains their historical hashes solely for provenance.
 
 ## Source and licensing notes
 
@@ -63,4 +67,4 @@ Please cite the associated manuscript and this repository. If a Zenodo DOI is as
 
 ## Version
 
-Repository synchronized with **R3R7R2 Systems final terminology/submission closure**. The supporting-data bytes and all scientific results are unchanged from the R3R7 scientific freeze.
+Repository synchronized with **R3R7R3 Systems final audit closure**. The core scientific results remain unchanged from the R3R7 scientific freeze; R3R7R3 corrects provenance wording, publication-facing support files, and minor editorial/visual consistency items.
