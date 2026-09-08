@@ -1,7 +1,7 @@
 {
-  "title": "Supporting Data for More Projects, Not Necessarily Earlier Operation: A Same-Project Audit of Reported Schedule Revisions in Global CCUS Records with a Hydrogen Portability Test",
+  "title": "Supporting Data for More Projects, Not Necessarily Earlier Operation: A Same-Record Audit of Reported Schedule Revisions in Global CCUS Project Records with a Hydrogen Portability Test",
   "upload_type": "dataset",
-  "description": "Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, and source fingerprints for a version-aware same-project audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks. The historical exact CCUS replay archive is not included and derived files are not substitutes for that unavailable original.",
+  "description": "Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, and source fingerprints for a version-aware same-record audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks. The historical exact CCUS replay archive is not included and derived files are not substitutes for that unavailable original.",
   "creators": [
     {"name": "Ghassan Malkawi"},
     {"name": "Ahmed Abdelaziz Elsayed"},
