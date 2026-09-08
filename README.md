@@ -67,4 +67,4 @@ Please cite the associated manuscript and this repository. If a Zenodo DOI is as
 
 ## Version
 
-Repository synchronized with **R3R7R3 Systems final audit closure**. The core scientific results remain unchanged from the R3R7 scientific freeze; R3R7R3 corrects provenance wording, publication-facing support files, and minor editorial/visual consistency items.
+Repository synchronized with **R3R7R4 Systems pre-submission cleanup freeze**. R3R7R4 changes manuscript/Supplement layout, mathematical prose, reference metadata, notation/unit consistency, and submission wording only. The supporting-data ZIP is byte-identical to R3R7R3, and the core scientific results remain unchanged from the R3R7 scientific freeze.
