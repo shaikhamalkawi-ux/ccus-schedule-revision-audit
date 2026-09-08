@@ -1,6 +1,6 @@
 # Supporting Data — Same-Record Schedule-Revision Audit
 
-This is the **public R3R7R1 companion repository** for:
+This is the **public companion repository** for the Systems submission:
 
 **More Projects, Not Necessarily Earlier Operation: A Same-Record Audit of Reported Schedule Revisions in Global CCUS Project Records with a Hydrogen Portability Test**
 
@@ -26,11 +26,11 @@ The repository is complete for its declared role as the **public browsable compa
 - `LICENSE_AND_THIRD_PARTY_NOTICE.md` records repository-level and third-party reuse boundaries.
 - `.zenodo.json` and `ZENODO_DEPOSIT_FIELDS.md` are retained only to support an optional later Zenodo archival DOI.
 
-The exact R3R7 Supplementary Data ZIP supplied with the current scientific-freeze package has:
+The exact supporting-data ZIP used by the Systems submission has:
 
 - size: **250,219 bytes**
 - SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
-- internal manifest: **32 declared objects, previously validated 32/32 for presence, size, and SHA-256**
+- internal manifest: **32 declared objects, verified 32/32 for presence, size, and SHA-256**
 
 The journal Supplementary Data archive remains the authoritative complete current supporting-data package. GitHub is intentionally optimized for public inspection rather than duplicating every large CSV/workbook twice.
 
@@ -63,4 +63,4 @@ Please cite the associated manuscript and this repository. If a Zenodo DOI is as
 
 ## Version
 
-Repository synchronized with the **R3R7R1 Systems editorial/repository closure**, with scientific results unchanged from R3R7.
+Repository synchronized with **R3R7R2 Systems final terminology/submission closure**. The supporting-data bytes and all scientific results are unchanged from the R3R7 scientific freeze.
