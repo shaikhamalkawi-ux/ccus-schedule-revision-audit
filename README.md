@@ -1,8 +1,8 @@
-# Supporting Data — Same-Project Schedule-Revision Audit
+# Supporting Data — Same-Record Schedule-Revision Audit
 
-This is the **public R3R7 companion repository** for:
+This is the **public R3R7R1 companion repository** for:
 
-**More Projects, Not Necessarily Earlier Operation: A Same-Project Audit of Reported Schedule Revisions in Global CCUS Records with a Hydrogen Portability Test**
+**More Projects, Not Necessarily Earlier Operation: A Same-Record Audit of Reported Schedule Revisions in Global CCUS Project Records with a Hydrogen Portability Test**
 
 Repository: https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit
 
@@ -10,7 +10,7 @@ Repository: https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit
 
 The study audits persistent project records across successive database releases and distinguishes:
 
-- changes in the reported schedule of the **same project record**;
+- changes in the reported schedule of the **same source record**;
 - changes caused by portfolio entry, exit, or redefinition;
 - fixed-baseline planning-horizon quantities from full source-vintage portfolio quantities.
 
@@ -18,32 +18,32 @@ The primary empirical application is CCUS. Hydrogen is the principal portability
 
 ## Repository scope
 
-The repository is complete for its declared role as the **public browsable companion layer** for the R3R7 submission.
+The repository is complete for its declared role as the **public browsable companion layer** for the Systems submission.
 
 - `data/` contains machine-readable audit summaries, adapters, source manifests, horizon results, identity checks, claim-evidence maps, claim-boundary records, and other lightweight provenance/reproduction objects.
-- `DATA_INVENTORY.md` states exactly which larger longitudinal files and binary workbooks are carried in the journal Supplementary Data archive rather than duplicated individually in GitHub.
+- `DATA_INVENTORY.md` states which larger longitudinal files and binary workbooks are carried in the journal Supplementary Data archive rather than duplicated individually in GitHub.
 - `CITATION.cff` provides citation metadata.
 - `LICENSE_AND_THIRD_PARTY_NOTICE.md` records repository-level and third-party reuse boundaries.
 - `.zenodo.json` and `ZENODO_DEPOSIT_FIELDS.md` are retained only to support an optional later Zenodo archival DOI.
 
-The exact R3R7 Supplementary Data ZIP supplied to the journal has:
+The exact R3R7 Supplementary Data ZIP supplied with the current scientific-freeze package has:
 
 - size: **250,219 bytes**
 - SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
 - internal manifest: **32 declared objects, previously validated 32/32 for presence, size, and SHA-256**
 
-The journal Supplementary Data archive remains the authoritative complete current submission package. GitHub is intentionally optimized for public inspection rather than duplicating every large CSV/workbook twice.
+The journal Supplementary Data archive remains the authoritative complete current supporting-data package. GitHub is intentionally optimized for public inspection rather than duplicating every large CSV/workbook twice.
 
 ## Key claim boundaries
 
 - A revised database field is **not automatically a physical project delay**.
 - A fixed-baseline planning-horizon effect is **not realized physical capacity loss**.
-- Persistent database identity does not by itself prove unchanged physical-project scope.
+- Persistent database identity supports source-record linkage but does not by itself prove unchanged physical-project scope.
 - The repository documents portability of the audit design across the tested databases; it does not provide a universal delay, failure, or correction rate.
 
 ## Reproducibility boundary
 
-The exact historical CCUS replay archive named in the manuscript is **not included here or in the current R3R7 Supplementary Data package**. Derived files must not be presented as substitutes for that unavailable historical original.
+The exact historical CCUS replay archive named in the manuscript is **not included here or in the current Supplementary Data package**. Derived files must not be presented as substitutes for that unavailable historical original.
 
 ## Source and licensing notes
 
@@ -63,4 +63,4 @@ Please cite the associated manuscript and this repository. If a Zenodo DOI is as
 
 ## Version
 
-Repository prepared from the **R3R7 scientific-freeze supporting-data package**.
+Repository synchronized with the **R3R7R1 Systems editorial/repository closure**, with scientific results unchanged from R3R7.
