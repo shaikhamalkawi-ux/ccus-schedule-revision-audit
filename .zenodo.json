@@ -8,10 +8,8 @@
     {"name": "Noura Alnuaimi"},
     {"name": "Hani Abusharkh"},
     {"name": "Anas Lataifeh"},
-    {"name": "Azmi Alazzam"},
-    {"name": "Akhtar Khalil"},
-    {"name": "Firuz Kamalov"},
-    {"name": "Bakeel Hussein"}
+    {"name": "Abdulwehab Ibrahim"},
+    {"name": "Akhtar Khalil"}
   ],
   "keywords": ["CCUS", "hydrogen", "database versioning", "project databases", "schedule revision", "persistent identifiers", "reproducibility", "energy transition", "planning horizons"],
   "license": "cc-by-4.0",
