@@ -2,7 +2,7 @@
 
 This is the **public companion repository** for the Systems submission:
 
-**More Projects, Not Necessarily Earlier Operation: A Same-Record Audit of Reported Schedule Revisions in Global CCUS Project Records with a Hydrogen Portability Test**
+**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
 
 Repository: https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit
 
@@ -67,4 +67,4 @@ Please cite the associated manuscript and this repository. If a Zenodo DOI is as
 
 ## Version
 
-Repository synchronized with **R3R7R4 Systems pre-submission cleanup freeze**. R3R7R4 changes manuscript/Supplement layout, mathematical prose, reference metadata, notation/unit consistency, and submission wording only. The supporting-data ZIP is byte-identical to R3R7R3, and the core scientific results remain unchanged from the R3R7 scientific freeze.
+Repository synchronized with the **seven-author Systems upload-ready submission package** and the manuscript title **A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**. The core scientific results, cohorts, estimands, equations, and claim boundaries remain unchanged from the R3R7 scientific freeze.
