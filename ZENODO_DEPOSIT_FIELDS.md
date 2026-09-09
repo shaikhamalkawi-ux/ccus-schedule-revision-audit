@@ -2,7 +2,7 @@
 
 **Resource type:** Dataset
 
-**Title:** Supporting Data for More Projects, Not Necessarily Earlier Operation: A Same-Record Audit of Reported Schedule Revisions in Global CCUS Project Records with a Hydrogen Portability Test
+**Title:** Supporting Data for A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases
 
 **Creators (in order):**
 1. Ghassan Malkawi
