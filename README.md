@@ -65,6 +65,10 @@ Author-generated documentation and derived audit tables are intended for scholar
 
 Please cite the associated manuscript and this repository. If a Zenodo DOI is assigned later, it can be added here and to `CITATION.cff`; a Zenodo DOI is not required for the current Systems submission.
 
+## Current authors
+
+Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
+
 ## Version
 
 Repository synchronized with the **seven-author Systems upload-ready submission package** and the manuscript title **A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**. The core scientific results, cohorts, estimands, equations, and claim boundaries remain unchanged from the R3R7 scientific freeze.
