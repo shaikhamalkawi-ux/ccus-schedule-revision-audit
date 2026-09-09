@@ -1,65 +1,23 @@
-# Data Inventory and Availability Boundary
+# Data Inventory
 
-This file states exactly what is browsable in GitHub and what remains in the complete R3R7R3 Supplementary Data archive uploaded with the manuscript.
+This repository accompanies the Systems manuscript:
 
-## A. Browsable GitHub layer
+**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
 
-The repository `data/` directory contains lightweight derived/provenance objects, including:
+The repository is the public browsable companion layer. The journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
 
-- `CCUS_PRIMARY_371_identity.json`
-- `CCUS_Coder_Repeatability_Note.md`
-- `CalCCA_LBNL_reproduction.csv`
-- `Claim_Boundary_Matrix.csv`
-- `Claim_Evidence_Map.csv`
-- `EIA_adapter.json`
-- `EIA_horizon_strict.csv`
-- `EIA_source_manifest.csv`
-- `EIA_summary_metrics.csv`
-- `EIA_technology_summary.csv`
-- `H2_adapter.json`
-- `H2_benchmark_reproduction.csv`
-- `H2_horizon_primary.csv`
-- `H2_horizon_strict.csv`
-- `H2_identity_audit.json`
-- `H2_source_manifest.csv`
-- `LBNL_horizon_results.csv`
-- `LBNL_identity_audit.json`
-- `LBNL_outcome_summary.csv`
-- `LBNL_pairwise_summary.csv`
-- `LBNL_technology_sensitivity.csv`
+## Repository data layer
 
-These files are intended for rapid inspection of the audit definitions, provenance, reported summaries, horizon effects, and claim boundaries.
+The `data/` directory contains lightweight machine-readable audit summaries, source manifests, adapters, horizon results, identity checks, claim-evidence records, claim-boundary records, provenance notes, and related reproducibility-support objects.
 
-## B. Complete R3R7R3 Supplementary Data archive uploaded with the manuscript
+## Journal Supplementary Data layer
 
-The journal Supplementary Data archive additionally contains the larger longitudinal datasets and binary workbooks, including:
+The journal Supplementary Data archive additionally carries larger longitudinal CSV files and binary workbooks that are not necessarily duplicated individually in GitHub. This separation avoids unnecessary duplication while preserving a complete submission package.
 
-- `CCUS_PRIMARY_371.csv`
-- `CCUS_ExternalTiming_EvidenceRegister.xlsx`
-- `CrossDomain_ResultWorkbook.xlsx`
-- `EIA_933.csv`
-- `EIA_target2025_870.csv`
-- `H2_primary190.csv`
-- `H2_strict137.csv`
-- `LBNL_4464.csv`
-- `LBNL_outcome_ledger.csv`
-- `LBNL_recorded_operation_alignment.csv`
-- publication-facing coder-repeatability documentation
-- full file manifests and SHA-256 records
+## Reproducibility boundary
 
-Exact submitted archive identity:
+The exact historical CCUS replay archive is unavailable and is not included here or in the current journal Supplementary Data package. Derived files must not be represented as substitutes for that unavailable historical original. The original two-coder workbooks are also not included; historical hashes are retained in `data/CCUS_Coder_Repeatability_Note.md` for provenance.
 
-- filename: `CCS_FGID_carbon123R3R7R3_Supplementary_Data.zip`
-- size: `252689` bytes
-- SHA-256: `9847bf03a50c62f7dc684e9feb860c3960ebb2541f12d3bd9ff44760dde8135f`
-- internal manifest: `32` declared research/support objects verified for presence, size, and SHA-256; package-control manifest/SHA files are additional
+## Current authorship metadata
 
-The larger files are not duplicated individually in GitHub because the journal Supplementary Data ZIP is the authoritative complete current submission package. GitHub provides the public browsable companion layer.
-
-## C. Historical archive limitation
-
-The unavailable historical exact CCUS replay archive is **not** part of either the GitHub companion layer or the current journal Supplementary Data package. Its documented expected SHA-256 is:
-
-`3f191871ba0ebf9e2f00290a00abfdf86dc4d7d319dac7eee5384a0c491e9d09`
-
-The original two-coder workbooks are also not included. Their historical hashes are retained in `data/CCUS_Coder_Repeatability_Note.md` solely for provenance. No derived file should be described as one of those unavailable historical originals.
+Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
