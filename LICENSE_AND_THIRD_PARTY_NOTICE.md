@@ -1,22 +1,17 @@
-# Licence and Third-Party Material Notice
+# License and Third-Party Notice
 
-## Repository-level licence
+Associated Systems manuscript:
 
-Author-generated documentation, metadata, and original derived audit tables in this repository are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, unless a file states otherwise.
+**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
 
-## Third-party material
+Repository-authored documentation and derived audit tables are intended for scholarly reuse with attribution, subject to the repository licence and the source-specific notices below.
 
-This repository does not grant new rights over third-party source material. Source-derived values and metadata remain subject to the licences and terms of their original providers.
+Third-party source rights remain with their respective owners and licensors. This repository does not convert third-party materials into author-owned content.
 
-Key source licences/statuses used by this project include:
+- IEA CCUS Projects Database: source licence/terms apply, including CC BY 4.0 where stated by the source.
+- IEA Hydrogen Production and Infrastructure Projects Database: source licence/terms apply, including CC BY 4.0 where stated by the source.
+- U.S. EIA materials: U.S. government public-domain material, with attribution recommended.
+- Berkeley Lab *Queued Up* data: source licence/terms apply, including CC BY 4.0 where stated by the source.
+- Other referenced sources: original source rights and terms apply.
 
-- International Energy Agency (IEA) CCUS Projects Database — CC BY 4.0.
-- IEA Hydrogen Production and Infrastructure Projects Database — CC BY 4.0.
-- U.S. Energy Information Administration (EIA) — U.S. government public-domain content, with source acknowledgement recommended.
-- Lawrence Berkeley National Laboratory / GridTracker, Queued Up data file — CC BY 4.0.
-
-Users should preserve source attribution when reusing or adapting source-derived material.
-
-## Historical replay archive
-
-The historical exact CCUS replay archive described in the manuscript is not included. No file in this repository should be represented as a reconstruction of that unavailable original archive.
+The public repository primarily contains derived audit materials, provenance records, source fingerprints, and reproducibility-support objects rather than a redistribution mirror of every third-party raw workbook.
