@@ -10,10 +10,8 @@
 3. Noura Alnuaimi
 4. Hani Abusharkh
 5. Anas Lataifeh
-6. Azmi Alazzam
+6. Abdulwehab Ibrahim
 7. Akhtar Khalil
-8. Firuz Kamalov
-9. Bakeel Hussein
 
 **Licence:** CC BY 4.0
 
