@@ -1,44 +1,22 @@
-# Repository Completeness — R3R7
+# Repository Completeness
 
-## Scope of completeness
+This repository is the public companion for the Systems submission titled:
 
-This repository is **complete for the public companion role declared in the manuscript/submission**. It is not intended to be a second byte-for-byte copy of every large file already uploaded as journal Supplementary Data.
+**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
 
-### Public GitHub layer
+The repository is complete for its declared public-companion role. It provides browsable derived-data, provenance, claim-boundary, identity-audit, horizon-result, and reproducibility-support objects while the journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
 
-The repository provides:
+## Current author metadata
 
-- citation metadata (`CITATION.cff`);
-- source/licence boundaries;
-- claim-evidence and claim-boundary tables;
-- domain adapters;
-- source manifests;
-- horizon-result summaries;
-- identity audits;
-- external-policy reproduction summaries;
-- repository/data inventory documentation;
-- optional Zenodo metadata for a later archival DOI.
+Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
 
-### Complete current journal supporting-data layer
+## Boundaries
 
-The exact R3R7 Supplementary Data ZIP uploaded with the manuscript is the authoritative complete current supporting-data package:
+- The exact historical CCUS replay archive is unavailable and is not represented as present.
+- The original two-coder workbooks are not included; their historical hashes are retained in the publication-facing repeatability note.
+- Third-party raw files are redistributed only where source rights permit; otherwise locators, release dates, filenames, hashes, or retrieval metadata are retained.
+- GitHub is intentionally not a byte-for-byte mirror of every binary workbook already carried in the journal Supplementary Data archive.
 
-- filename: `CCS_FGID_carbon123R3R7_Supplementary_Data.zip`
-- size: **250,219 bytes**
-- SHA-256: `6120807b07c199cdd8aebe2efba45952fb1b0c7d196697c20cb8e04bdc28faa0`
-- internal manifest: **32 declared objects, previously validated 32/32 for presence, size, and SHA-256**
+## Scientific status
 
-`DATA_INVENTORY.md` lists the larger CSV/workbook objects retained in that journal archive rather than duplicated individually in GitHub.
-
-## Historical limitation
-
-The historical exact CCUS replay archive described in the manuscript is unavailable. It is not included in GitHub or the current Supplementary Data package, and no derived file should be described as a substitute for that historical original.
-
-## Submission conclusion
-
-For the current R3R7 Systems submission, the combination of:
-
-1. the journal Supplementary Data ZIP, and
-2. this public GitHub companion repository
-
-provides the intended current-package reproducibility/provenance support without changing the scientific result set.
+Current repository synchronization changes concern manuscript-title and authorship metadata only. The core results, cohorts, estimands, equations, and claim boundaries remain unchanged from the locked scientific baseline.
