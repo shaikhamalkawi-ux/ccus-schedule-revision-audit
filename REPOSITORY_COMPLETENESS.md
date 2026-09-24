@@ -1,8 +1,10 @@
 # Repository Completeness
 
-This repository is the public companion for the Systems submission titled:
+This repository is the public companion for:
 
-**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
+**Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases**
+
+Current journal target: **Gases (MDPI)**.
 
 The repository is complete for its declared public-companion role. It provides browsable derived-data, provenance, claim-boundary, identity-audit, horizon-result, and reproducibility-support objects while the journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
 
@@ -12,11 +14,12 @@ Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas L
 
 ## Boundaries
 
-- The exact historical CCUS replay archive is unavailable and is not represented as present.
-- The original two-coder workbooks are not included; their historical hashes are retained in the publication-facing repeatability note.
+- The central CCUS calculations are source-level replayable from the archived IEA workbooks using the documented hashes and verification script.
+- The original two-coder workbooks are not redistributed; their historical hashes are retained in the publication-facing repeatability note.
 - Third-party raw files are redistributed only where source rights permit; otherwise locators, release dates, filenames, hashes, or retrieval metadata are retained.
-- GitHub is intentionally not a byte-for-byte mirror of every binary workbook already carried in the journal Supplementary Data archive.
+- GitHub is intentionally not a byte-for-byte mirror of every large binary object in the journal Supplementary Data archive.
 
-## Scientific status
+## Current supporting-data archive
 
-Current repository synchronization changes concern manuscript-title and authorship metadata only. The core results, cohorts, estimands, equations, and claim boundaries remain unchanged from the locked scientific baseline.
+- size: **459,450 bytes**
+- SHA-256: `f0c1817e5638c23bf31268872e14068f2d70a54a3b24bb6b52e5b316a0386aab`
