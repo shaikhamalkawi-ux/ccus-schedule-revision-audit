@@ -2,7 +2,7 @@
 
 **Resource type:** Dataset
 
-**Title:** Supporting Data for A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases
+**Title:** Supporting Data for Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases
 
 **Creators (in order):**
 1. Ghassan Malkawi
@@ -15,10 +15,10 @@
 
 **Licence:** CC BY 4.0
 
-**Keywords:** CCUS; hydrogen; database versioning; project databases; schedule revision; persistent identifiers; reproducibility; energy transition; planning horizons
+**Keywords:** CCUS; hydrogen; database versioning; project databases; schedule revision; persistent identifiers; reproducibility; decarbonization planning; planning horizons
 
-**Description:** Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, and source fingerprints for a version-aware same-record audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks. The historical exact CCUS replay archive is not included; derived files must not be presented as substitutes for that unavailable historical original.
+**Description:** Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, source fingerprints, and source-level verification materials for a version-aware same-record audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks.
 
 **GitHub repository:** https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit
 
-If Zenodo is used later, copy the assigned DOI into the manuscript Data Availability Statement, the Systems submission record, this repository README, and `CITATION.cff`.
+If Zenodo is used later, add the assigned DOI to the manuscript Data Availability Statement, this repository README, and `CITATION.cff`.
