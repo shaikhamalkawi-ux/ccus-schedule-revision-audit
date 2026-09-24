@@ -1,28 +1,25 @@
-# Repository Status — Systems Upload-Ready Submission
+# Repository Status — Gases Submission Companion
 
-**Status: COMPLETE FOR THE DECLARED PUBLIC-COMPANION ROLE AND READY FOR SYSTEMS SUBMISSION**
+**Status: SYNCHRONIZED WITH THE CURRENT GASES SUBMISSION CANDIDATE**
 
 - Repository visibility: public
-- Scientific baseline: R3R7 freeze
-- Current manuscript title: `A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases`
-- Current listed authors: Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil
+- Current manuscript title: `Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases`
+- Current journal target: **Gases (MDPI)**
+- Authors: Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil
 - GitHub role: browsable derived-data, provenance, claim-boundary, and audit-support companion
 - Complete current supporting-data role: journal Supplementary Data ZIP
-- Zenodo DOI: not assigned; optional and not required for the current Systems submission
-- Historical exact CCUS replay archive: unavailable and explicitly excluded
+- Zenodo DOI: not assigned; optional
 
 ## Verification anchors
 
-Exact Supplementary Data ZIP used by the Systems submission:
+Current Supplementary Data ZIP:
 
-- size: **252,689 bytes**
-- SHA-256: `9847bf03a50c62f7dc684e9feb860c3960ebb2541f12d3bd9ff44760dde8135f`
-- internal manifest: **32 declared research/support objects verified for presence, size, and SHA-256**, plus package-control manifest/SHA files
+- size: **459,450 bytes**
+- SHA-256: `f0c1817e5638c23bf31268872e14068f2d70a54a3b24bb6b52e5b316a0386aab`
+- internal manifest: **38 declared research/support objects** verified for presence, size, and SHA-256
 
-The repository includes the publication-facing `CCUS_Coder_Repeatability_Note.md`, the corrected CalCCA CAISO provenance/rounding interpretation, and a claim-evidence map aligned with files actually present.
+The central CCUS source-level replay reproduces the 804-record balanced panel, 659 status-stable records, 371 endpoint-complete records, 181 endpoint revisions, the fixed-baseline 2030 effects, and the 78–395 margins-only identification range around the exact 95 linked status changers. It also constructs the expanded 461-record same-definition 2025–2026 cohort.
 
-## Important boundary
+## Boundary
 
-The GitHub repository intentionally does not duplicate every large longitudinal CSV or binary workbook already carried in the journal Supplementary Data ZIP. `DATA_INVENTORY.md` identifies that separation explicitly.
-
-The current submission-package changes concern authorship metadata, title synchronization, and production packaging only. The core scientific results, cohorts, estimands, equations, and claim boundaries are unchanged from the R3R7 scientific freeze.
+The repository is not intended to duplicate every large longitudinal CSV or binary workbook already carried in the journal Supplementary Data archive. The original two-coder workbooks are not redistributed; their repeatability result remains supporting evidence with documented provenance.
