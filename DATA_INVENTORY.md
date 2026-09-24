@@ -1,22 +1,29 @@
 # Data Inventory
 
-This repository accompanies the Systems manuscript:
+This repository accompanies the manuscript:
 
-**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
+**Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases**
+
+Current journal target: **Gases (MDPI)**.
 
 The repository is the public browsable companion layer. The journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
 
 ## Repository data layer
 
-The `data/` directory contains lightweight machine-readable audit summaries, source manifests, adapters, horizon results, identity checks, claim-evidence records, claim-boundary records, provenance notes, and related reproducibility-support objects.
+The `data/` directory contains lightweight machine-readable audit summaries, source manifests, adapters, horizon results, identity checks, claim-evidence records, claim-boundary records, provenance notes, and reproducibility-support objects.
 
 ## Journal Supplementary Data layer
 
-The journal Supplementary Data archive additionally carries larger longitudinal CSV files and binary workbooks that are not necessarily duplicated individually in GitHub. This separation avoids unnecessary duplication while preserving a complete submission package.
+The current Supplementary Data ZIP additionally carries larger longitudinal CSV files, the expanded 2025–2026 same-definition pairwise cohort, the raw-source verification script and result objects, the cross-domain workbook, and binary evidence-register material.
+
+Current archive:
+
+- size: **459,450 bytes**
+- SHA-256: `f0c1817e5638c23bf31268872e14068f2d70a54a3b24bb6b52e5b316a0386aab`
 
 ## Reproducibility boundary
 
-The exact historical CCUS replay archive is unavailable and is not included here or in the current journal Supplementary Data package. Derived files must not be represented as substitutes for that unavailable historical original. The original two-coder workbooks are also not included; historical hashes are retained in `data/CCUS_Coder_Repeatability_Note.md` for provenance.
+The central CCUS calculations have been re-executed directly from the authentic archived 2024–2026 IEA workbooks after SHA-256 verification. The original two-coder workbooks are not redistributed; their historical hashes are retained for provenance.
 
 ## Current authorship metadata
 
