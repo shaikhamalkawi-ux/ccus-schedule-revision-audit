@@ -1,13 +1,15 @@
 # Public Companion Manifest
 
-Associated Systems manuscript:
+Associated manuscript:
 
-**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
+**Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases**
+
+Current journal target: **Gases (MDPI)**.
 
 Current listed authors:
 Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
 
-This public repository exposes the lightweight, browsable companion layer for the submission. The journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
+This public repository exposes the lightweight, browsable companion layer. The journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
 
 ## Public-companion contents
 
@@ -18,10 +20,6 @@ This public repository exposes the lightweight, browsable companion layer for th
 - publication-facing coder-repeatability documentation;
 - licensing and third-party reuse notes;
 - citation and optional Zenodo metadata.
-
-## Excluded by design
-
-The exact historical CCUS replay archive is unavailable and not included. The original two-coder workbooks are also not included. Large or binary objects already carried in the journal Supplementary Data archive need not be duplicated individually in GitHub.
 
 ## Claim boundary
 
