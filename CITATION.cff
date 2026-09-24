@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these supporting materials, please cite the associated manuscript and this repository."
-title: "Supporting Data for A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases"
+title: "Supporting Data for Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases"
 type: dataset
 authors:
   - family-names: "Malkawi"
@@ -25,6 +25,7 @@ keywords:
   - schedule revision
   - persistent identifiers
   - reproducibility
-  - energy transition
+  - decarbonization planning
+  - planning horizons
 repository-code: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
 license: CC-BY-4.0
