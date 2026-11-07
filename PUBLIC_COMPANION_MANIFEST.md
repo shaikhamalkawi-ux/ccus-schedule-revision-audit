@@ -1,26 +1,19 @@
-# Public Companion Manifest
+# Public companion manifest
 
-Associated manuscript:
+**Associated study:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* — Gases `gases-4620358`, R4.2 author-review candidate.
 
-**Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases**
+## Existing public materials (retained)
 
-Current journal target: **Gases (MDPI)**.
+- `data/` — compact CCUS, hydrogen, EIA-860M and Berkeley Lab Queued Up derived audit summaries, source manifest/adapters and claim-boundary objects.
+- `CITATION.cff`, `.zenodo.json` — author/citation metadata; no assigned DOI.
+- `LICENSE_AND_THIRD_PARTY_NOTICE.md`, `DATA_INVENTORY.md` — rights and holdings boundaries.
 
-Current listed authors:
-Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
+## Added on 8 November 2026
 
-This public repository exposes the lightweight, browsable companion layer. The journal Supplementary Data ZIP remains the authoritative complete current supporting-data package.
+- `tools/readiness_margin.py` — deterministic year-field cutoff audit; input is already matched/admitted, not raw IEA data.
+- `examples/SYNTHETIC_pairwise_example.csv` — invented test data, not real CCUS projects.
+- `tests/` — synthetic and aggregate consistency checks.
+- `results/` — **aggregate-only** 2025/2026 cutoff comparison and signed revision-year histogram.
+- `docs/` — decision-relevant contribution, exact input contract, reuse protocol, and review-stage release note.
 
-## Public-companion contents
-
-- derived CCUS, hydrogen, EIA-860M, and Berkeley Lab audit tables;
-- source manifests and fingerprints;
-- identity and horizon-result objects;
-- claim-evidence and claim-boundary records;
-- publication-facing coder-repeatability documentation;
-- licensing and third-party reuse notes;
-- citation and optional Zenodo metadata.
-
-## Claim boundary
-
-Repository materials support a version-aware same-record audit of reported database fields. They do not establish physical project delay, failure, realized capacity loss, or a pooled cross-domain revision rate.
+The repository is not a full mirror of the R4.2 provisional journal supplementary archive (see `REPOSITORY_STATUS.md`). Source-record movement must not be equated with physical project delay or lost physical capacity. Cross-domain rates are not pooled.

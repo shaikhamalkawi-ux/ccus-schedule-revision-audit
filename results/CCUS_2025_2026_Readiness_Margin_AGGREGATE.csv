@@ -1,0 +1,9 @@
+portfolio,margin_years,cutoff_year,known_capacity_records,eligible_records_2025,eligible_records_2026,baseline_2025_MtCO2_per_year,endpoint_2026_MtCO2_per_year,delta_MtCO2_per_year,pct_change_vs_2025_baseline
+capture,0,2030,269,255,245,295.540,280.530,-15.010,-5.079
+capture,1,2029,269,185,175,196.687,180.306,-16.381,-8.328
+capture,2,2028,269,169,147,168.255,137.968,-30.287,-18.001
+capture,3,2027,269,104,55,116.804,64.811,-51.993,-44.513
+storage,0,2030,173,158,154,547.092,519.492,-27.600,-5.045
+storage,1,2029,173,103,98,330.444,301.744,-28.700,-8.685
+storage,2,2028,173,95,87,287.244,273.794,-13.450,-4.682
+storage,3,2027,173,68,47,203.104,131.104,-72.000,-35.450

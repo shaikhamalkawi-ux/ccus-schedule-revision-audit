@@ -1,0 +1,6 @@
+ID,Status,Project_type_2025,Operation_2025,Operation_2026,IEA_est_capacity_2025
+DEMO_A,Planned,Capture,2030,2032,5
+DEMO_B,Planned,Capture,2029,2029,2
+DEMO_C,Under construction,Storage,2031,2030,3
+DEMO_D,Planned,Full chain,2028,2029,1
+DEMO_E,Planned,T&S,2027,2027,

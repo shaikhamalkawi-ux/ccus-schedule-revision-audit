@@ -1,25 +1,20 @@
-# Repository Status — Gases Submission Companion
+# Repository status — Gases major-revision companion
 
-**Status: SYNCHRONIZED WITH THE CURRENT GASES SUBMISSION CANDIDATE**
+**Updated:** 8 November 2026. This public GitHub state accompanies an **author-review R4.2 candidate** for Gases, manuscript `gases-4620358`, *not yet accepted or resubmitted*. It does not replace the journal's official submissions or prior tagged baselines.
 
-- Repository visibility: public
-- Current manuscript title: `Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases`
-- Current journal target: **Gases (MDPI)**
-- Authors: Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil
-- GitHub role: browsable derived-data, provenance, claim-boundary, and audit-support companion
-- Complete current supporting-data role: journal Supplementary Data ZIP
-- Zenodo DOI: not assigned; optional
+## Scientific baseline (unchanged)
 
-## Verification anchors
+- 2024–2026 cross-definition endpoint analysis: 371 endpoint-complete, same-status records; 181 revised Operation fields (172 later, nine earlier); fixed-2024-capacity 2030 effects −6.09% capture and −6.78% storage.
+- Same-definition 2025–2026: 461 exact-ID matched, status-stable, numeric-year records; 138 later, seven earlier and 316 unchanged; fixed-2025-capacity 2030 effects −5.08% capture and −5.04% storage.
+- A separate reviewer-driven 0–3-year **planning cutoff** contrast appears at `results/` and is explicitly not a physical delay estimator or recommended scheduling contingency.
 
-Current Supplementary Data ZIP:
+## Source and rights gates
 
-- size: **459,450 bytes**
-- SHA-256: `f0c1817e5638c23bf31268872e14068f2d70a54a3b24bb6b52e5b316a0386aab`
-- internal manifest: **38 declared research/support objects** verified for presence, size, and SHA-256
+- Original IEA data and original coder records: retained privately, **not publicly mirrored**.
+- The R4.2 provisional supplementary-data archive in author workspace (not in this GitHub repo) is 485,964 bytes, SHA-256 `5b3941955a4c1d6c6edfaef057df1fa65d89a5cefacceca7fb110945aa6d9bcd`.
+- Repository provides reproducible aggregate arithmetic with example inputs; **source-level replication requires access to authorized source workbooks and the complete admission workflow**.
+- No Zenodo DOI has been minted/recorded. No editor decision is implied beyond the actual Major Revision notice; journal portal submission requires author authorization.
 
-The central CCUS source-level replay reproduces the 804-record balanced panel, 659 status-stable records, 371 endpoint-complete records, 181 endpoint revisions, the fixed-baseline 2030 effects, and the 78–395 margins-only identification range around the exact 95 linked status changers. It also constructs the expanded 461-record same-definition 2025–2026 cohort.
+## Authorship (unchanged)
 
-## Boundary
-
-The repository is not intended to duplicate every large longitudinal CSV or binary workbook already carried in the journal Supplementary Data archive. The original two-coder workbooks are not redistributed; their repeatability result remains supporting evidence with documented provenance.
+Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.

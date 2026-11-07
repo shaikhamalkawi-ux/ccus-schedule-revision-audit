@@ -1,17 +1,13 @@
-# License and Third-Party Notice
+# Licence and third-party source notice
 
-Associated Systems manuscript:
+**Associated Gases manuscript:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* (`gases-4620358`).
 
-**A Same-Record Audit Framework for Schedule Revisions in CCUS and Hydrogen Project Databases**
+`CITATION.cff` and `.zenodo.json` list CC BY 4.0 for the repository-authored derived documentation/data layer. This notice does **not** change that existing author-declared licence or grant any additional rights in third-party source materials. No separate software licence has been added in this update.
 
-Repository-authored documentation and derived audit tables are intended for scholarly reuse with attribution, subject to the repository licence and the source-specific notices below.
+The International Energy Agency (IEA) owns or licenses the original CCUS Projects Database records. The 2023–2025 historical workbook copies were supplied for academic research with a caution that revisions across editions can reflect record corrections, methods and other changes, not necessarily real-world project movements. **The author's specific permission request for public redistribution of the historical Excel workbooks remains unresolved here.** Their inclusion in a private research archive does not authorize public GitHub upload.
 
-Third-party source rights remain with their respective owners and licensors. This repository does not convert third-party materials into author-owned content.
+The public companion therefore contains **aggregate analytical results, compact existing derived objects, documentation, and generic code**, but not raw IEA historical workbooks or original human-coder worksheets. Users must confirm all source-specific terms before redistributing original or sufficiently detailed transformed records. Any current-source licence label displayed on a public data product page should not automatically be assumed to cover every privately supplied historical edition.
 
-- IEA CCUS Projects Database: source licence/terms apply, including CC BY 4.0 where stated by the source.
-- IEA Hydrogen Production and Infrastructure Projects Database: source licence/terms apply, including CC BY 4.0 where stated by the source.
-- U.S. EIA materials: U.S. government public-domain material, with attribution recommended.
-- Berkeley Lab *Queued Up* data: source licence/terms apply, including CC BY 4.0 where stated by the source.
-- Other referenced sources: original source rights and terms apply.
+Other original data sources (IEA hydrogen, U.S. EIA, Berkeley Lab and official owner/regulator evidence) retain their respective rights and citation terms. The generic script does **not** assert that a database field revision is a measured physical construction delay, capacity shortfall, failure, or universal correction factor.
 
-The public repository primarily contains derived audit materials, provenance records, source fingerprints, and reproducibility-support objects rather than a redistribution mirror of every third-party raw workbook.
+Source: https://www.iea.org/data-and-statistics/data-product/ccus-projects-database
