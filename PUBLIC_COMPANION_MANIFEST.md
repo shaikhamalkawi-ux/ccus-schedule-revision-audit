@@ -1,6 +1,6 @@
 # Public companion manifest
 
-**Associated study:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* — Gases `gases-4620358`, R4.2 author-review candidate.
+**Associated study:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* — Gases `gases-4620358`, R5 author-review candidate.
 
 ## Existing public materials (retained)
 
@@ -17,3 +17,7 @@
 - `docs/` — decision-relevant contribution, exact input contract, reuse protocol, and review-stage release note.
 
 The repository is not a full mirror of the R4.2 provisional journal supplementary archive (see `REPOSITORY_STATUS.md`). Source-record movement must not be equated with physical project delay or lost physical capacity. Cross-domain rates are not pooled.
+
+## R5 extension
+
+The cutoff-crossing aggregate, its reproducibility script and an interpretation guide were added on 8 November 2026. This adds no raw IEA files or historical human-coder submissions. The numbers remain review-stage results, not an accepted journal article.

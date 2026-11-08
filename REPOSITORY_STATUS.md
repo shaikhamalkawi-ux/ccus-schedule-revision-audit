@@ -1,6 +1,6 @@
 # Repository status — Gases major-revision companion
 
-**Updated:** 8 November 2026. This public GitHub state accompanies an **author-review R4.2 candidate** for Gases, manuscript `gases-4620358`, *not yet accepted or resubmitted*. It does not replace the journal's official submissions or prior tagged baselines.
+**Updated:** 8 November 2026. This public GitHub state accompanies an **author-review R5 candidate** for Gases, manuscript `gases-4620358`, *not yet accepted or resubmitted*. It does not replace the journal's official submissions or prior tagged baselines.
 
 ## Scientific baseline (unchanged)
 
@@ -18,3 +18,7 @@
 ## Authorship (unchanged)
 
 Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
+
+## R5 update (8 November 2026)
+
+The 2025–2026 matched-cohort cutoff-crossing table and reproducer were added. Five storage records exit at 2030 (gross capacity 28.60 Mt/year) versus eight at 2028 (13.45). These are differences in source-reported years, not observed physical delays. Main locked endpoint estimates and author metadata are unchanged.

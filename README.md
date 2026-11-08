@@ -1,7 +1,7 @@
 # CCUS Schedule-Revision Audit — research companion
 
 **Manuscript:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases*  
-**Journal:** Gases (MDPI), manuscript `gases-4620358` — major-revision **author-review candidate** R4.2 (not accepted or resubmitted as of 8 November 2026).  
+**Journal:** Gases (MDPI), manuscript `gases-4620358` — major-revision **author-review candidate** R5 (not accepted or resubmitted as of 8 November 2026).  
 **Authors:** Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
 
 This is the **public, browsable companion** for the study. It is **not** a mirror of the original IEA workbooks or the private coder documentation, and it does not claim to be independently source-replayable from public files alone.
@@ -56,3 +56,13 @@ Existing `data/` files contain compact CCUS/hydrogen/EIA-860M/Berkeley Lab *Queu
 Archived IEA raw workbooks and human-coder originals are **not redistributed** in this repository. The archive owner has been contacted for clarification of redistribution terms; do not interpret this public companion as permission to publish the original workbooks. See [third-party notice](LICENSE_AND_THIRD_PARTY_NOTICE.md) and [data inventory](DATA_INVENTORY.md).
 
 Use [`CITATION.cff`](CITATION.cff) for contributor metadata and the project title. When citing a result, cite the eventual published manuscript/DOI if assigned, the **exact repository commit or release**, and the original IEA CCUS data-edition source. **No Zenodo DOI has been assigned here.** This repository update does not represent journal acceptance, a formal release, or author approval for final resubmission.
+
+## R5 reviewer-driven cutoff-crossing explanation (author-review candidate)
+
+The main question is whether the number of records crossing a cutoff is enough to describe the capacity change. It is not: at the **2030** cutoff, five storage-function records move out (gross exit 28.60 Mt CO2/year) and one moves in (1.00). At the **2028** cutoff, eight move out, but gross exit is only 13.45 with no entries. The top three exiting records represent 71.7% and 62.5% of gross exiting storage capacity at those cutoffs, respectively. The result is specific to reported Operation-year changes in the same 2025–2026 cohort and fixed announced 2025 capacity; it says nothing by itself about physical delays or lost stored CO2.
+
+- [S86 aggregate cutoff-crossing audit](results/CCUS_2025_2026_Cutoff_Crossing_S86_AGGREGATE.csv) — grouped counts and capacity flows; no original IEA rows.
+- [Recompute S86 from an authorized matched cohort](tools/reproduce_s86.py) — Python standard library only.
+- [How to interpret the concentration result](docs/CUTOFF_CROSSING_ANALYSIS_R5.md).
+
+These findings are part of the **R5 major-revision author-review manuscript**; they have not been accepted or resubmitted to Gases as of this update. No Zenodo DOI has been assigned.

@@ -15,3 +15,7 @@ The repository is a **public companion**, not a complete public mirror or a stan
 - New analysis claiming underlying project physical delay, FID transition, realized capture/injection or causal reasons for a database field edit.
 
 All original contributor metadata are retained in `CITATION.cff`. No DOI is invented. The public GitHub record can be cited by immutable commit after author confirmation and any later release/DOI assignment.
+
+## R5 verified capability
+
+The new crossing table is reproducible with an authorized 461-record admitted input file and `tools/reproduce_s86.py --check-study-anchors`. The public repository provides only summary results and code, not the detailed IEA cohort required to re-run source admission.

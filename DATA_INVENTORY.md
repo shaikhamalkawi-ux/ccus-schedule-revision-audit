@@ -1,7 +1,7 @@
 # Data inventory and publication boundary
 
 **Public repository:** https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit  
-**Associated manuscript:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* — Gases major-revision author-review candidate R4.2.
+**Associated manuscript:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases* — Gases major-revision author-review candidate R5.
 
 ## Public contents
 
@@ -23,3 +23,9 @@ The current R4.2 **provisional journal supplementary-data ZIP** was archived in 
 Anyone can run the synthetic example and verify the arithmetic of the eight published aggregate cells and source-field histogram. To reproduce the actual matched-record counts, source admission or exact aggregate numerics from raw workbooks requires authorized access to the dated IEA releases and the source-verification pipeline; the aggregate CSV is not a substitute for those originals.
 
 Third-party rights remain with source owners. See the repository's `LICENSE_AND_THIRD_PARTY_NOTICE.md` and the IEA data product: https://www.iea.org/data-and-statistics/data-product/ccus-projects-database.
+
+## R5 addendum
+
+- `results/CCUS_2025_2026_Cutoff_Crossing_S86_AGGREGATE.csv`: aggregate-only gross exits, entries, net changes and largest-three exit shares at four common cutoff years; no record-level fields.
+- `tools/reproduce_s86.py`: standard-library evaluator for an authorized, already-admitted pairwise cohort.
+- `docs/CUTOFF_CROSSING_ANALYSIS_R5.md`: purpose, assumption, permission and reuse limits.
