@@ -1,7 +1,7 @@
 # CCUS Schedule-Revision Audit — research companion
 
-**Manuscript:** *Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases*  
-**Journal:** Gases (MDPI), manuscript `gases-4620358` — major-revision **author-review candidate** R5 (not accepted or resubmitted as of 8 November 2026).  
+**Manuscript:** *Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases*  
+**Journal:** Gases (MDPI), manuscript `gases-4620358` — title-aligned major-revision package R6 T6 prepared 9 November 2026; **not yet resubmitted or accepted**. This public repository retains the earlier R5 aggregate companion, not the private R6 T6 classifier inputs or journal submission package.  
 **Authors:** Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
 
 This is the **public, browsable companion** for the study. It is **not** a mirror of the original IEA workbooks or the private coder documentation, and it does not claim to be independently source-replayable from public files alone.
@@ -65,4 +65,4 @@ The main question is whether the number of records crossing a cutoff is enough t
 - [Recompute S86 from an authorized matched cohort](tools/reproduce_s86.py) — Python standard library only.
 - [How to interpret the concentration result](docs/CUTOFF_CROSSING_ANALYSIS_R5.md).
 
-These findings are part of the **R5 major-revision author-review manuscript**; they have not been accepted or resubmitted to Gases as of this update. No Zenodo DOI has been assigned.
+These outputs are retained from the **earlier R5 analytical stage** and are consistent with the quantitative findings carried into R6 T6. The revised manuscript has not yet been accepted or resubmitted to Gases. No Zenodo DOI has been assigned.
