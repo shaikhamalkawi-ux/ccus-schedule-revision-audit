@@ -1,0 +1,16 @@
+{
+  "record_id": 24218056,
+  "title": "CCUS Schedule-Revision Audit: Code and Aggregate Checks",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.24218056",
+  "version_doi_url": "https://doi.org/10.5281/zenodo.24218056",
+  "record_url": "https://zenodo.org/records/24218056",
+  "archive_filename": "CCUS_Audit_v1.0.0_PUBLIC.zip",
+  "archive_sha256": "f45311df9b6726b1b2ccc5f8141a2a2f8e71c2bc329f975a9f1d3229608d6be9",
+  "archive_type": "curated documentation, code, synthetic examples, aggregate checks",
+  "source_repository": "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit",
+  "source_commit": "61bcbcaefdb02c898a6f0e309b9340143cfccf3f",
+  "published_date": "2026-11-14",
+  "rights_scope": "See LICENSE_AND_THIRD_PARTY_NOTICE.md; no raw IEA data or private ML inputs",
+  "journal_status": "associated manuscript under minor revision; no publication or acceptance claim"
+}

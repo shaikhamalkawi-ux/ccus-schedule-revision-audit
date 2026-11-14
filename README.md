@@ -1,6 +1,8 @@
 # CCUS Schedule-Revision Audit: Code and Aggregate Checks
 
 **Companion version:** 1.0.0 (14 November 2026).  
+**Published Zenodo version DOI:** [10.5281/zenodo.24218056](https://doi.org/10.5281/zenodo.24218056) ([record](https://zenodo.org/records/24218056)).  
+**Archived source snapshot:** [`61bcbcaefdb0`](https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit/tree/61bcbcaefdb02c898a6f0e309b9340143cfccf3f).  
 **Associated manuscript:** *Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases*.  
 **Authors:** Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.  
 **Corresponding author designated in the revised manuscript:** Noura Alnuaimi, nalnuaimi2@hct.ac.ae.
@@ -49,4 +51,4 @@ python tools/build_public_archive.py --output-dir ../public-release
 
 This packages **only** `archive_allowlist.txt`, not the entire repository. A SHA-256 manifest is included. Legacy cross-domain files remain browsable under `data/`, but are outside this narrower deposit. Do not upload journal packages, reviewer reports or private author records to Zenodo.
 
-Use `CITATION.cff` and the exact repository commit until a Zenodo record is published. **No Zenodo DOI is claimed in this snapshot.** After deposit, cite its version-specific DOI and the associated article when a publication DOI exists. Metadata are prepared in `.zenodo.json`; see [deposit fields](ZENODO_DEPOSIT_FIELDS.md). Existing author-declared licence scope is preserved in [the rights notice](LICENSE_AND_THIRD_PARTY_NOTICE.md); this update does not grant additional third-party or software rights.
+The curated version 1.0.0 archive has been **published on Zenodo** ([record](https://zenodo.org/records/24218056); [version-specific DOI](https://doi.org/10.5281/zenodo.24218056)). It contains only `CCUS_Audit_v1.0.0_PUBLIC.zip` (SHA-256 `f45311df9b6726b1b2ccc5f8141a2a2f8e71c2bc329f975a9f1d3229608d6be9`), drawn from the exact source commit [`61bcbcaefdb02c898a6f0e309b9340143cfccf3f`](https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit/tree/61bcbcaefdb02c898a6f0e309b9340143cfccf3f). Cite that DOI for this archived version and cite the associated article once it has a publication DOI. The current `main` branch may contain later citation-only metadata updates; it is **not** a replacement for the archived commit. Consult `CITATION.cff` and [ZENODO_RECORD.json](ZENODO_RECORD.json) for the release citation. Existing author-declared licence scope is preserved in [the rights notice](LICENSE_AND_THIRD_PARTY_NOTICE.md); this update does not grant additional third-party or software rights.

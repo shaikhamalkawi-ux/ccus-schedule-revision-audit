@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite the exact version or commit of this research companion and the associated article when published."
+message: "Please cite the published Zenodo version 1.0.0 (DOI 10.5281/zenodo.24218056) and the associated article when published."
 title: "CCUS Schedule-Revision Audit: Code and Aggregate Checks"
 type: dataset
 version: 1.0.0
+doi: "10.5281/zenodo.24218056"
 date-released: 2026-11-14
 license: CC-BY-4.0
 repository-code: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
