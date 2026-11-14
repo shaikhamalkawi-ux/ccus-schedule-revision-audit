@@ -1,24 +1,9 @@
-# Repository status — Gases major-revision companion
+# Repository status
 
-**Updated:** 8 November 2026. This public GitHub state accompanies an **author-review R5 candidate** for Gases, manuscript `gases-4620358`, *not yet accepted or resubmitted*. It does not replace the journal's official submissions or prior tagged baselines.
+Updated 14 November 2026. Current public companion version: 1.0.0.
 
-## Scientific baseline (unchanged)
+The associated revised manuscript is *Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases*, Gases manuscript gases-4620358. This repository does not imply acceptance or an additional journal submission. Noura Alnuaimi is the corresponding author designated by the authors; author order remains unchanged.
 
-- 2024–2026 cross-definition endpoint analysis: 371 endpoint-complete, same-status records; 181 revised Operation fields (172 later, nine earlier); fixed-2024-capacity 2030 effects −6.09% capture and −6.78% storage.
-- Same-definition 2025–2026: 461 exact-ID matched, status-stable, numeric-year records; 138 later, seven earlier and 316 unchanged; fixed-2025-capacity 2030 effects −5.08% capture and −5.04% storage.
-- A separate reviewer-driven 0–3-year **planning cutoff** contrast appears at `results/` and is explicitly not a physical delay estimator or recommended scheduling contingency.
+The previously public R5 analytical scripts and aggregate results are retained without numerical changes. Version 1.0.0 adds a checked one-command wrapper, input/output documentation, synthetic expected outputs and an allowlisted deposit builder. Older documents in docs/ are retained as historical records and do not override this current status or the reproducibility scope.
 
-## Source and rights gates
-
-- Original IEA data and original coder records: retained privately, **not publicly mirrored**.
-- The R4.2 provisional supplementary-data archive in author workspace (not in this GitHub repo) is 485,964 bytes, SHA-256 `5b3941955a4c1d6c6edfaef057df1fa65d89a5cefacceca7fb110945aa6d9bcd`.
-- Repository provides reproducible aggregate arithmetic with example inputs; **source-level replication requires access to authorized source workbooks and the complete admission workflow**.
-- No Zenodo DOI has been minted/recorded. No editor decision is implied beyond the actual Major Revision notice; journal portal submission requires author authorization.
-
-## Authorship (unchanged)
-
-Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
-
-## R5 update (8 November 2026)
-
-The 2025–2026 matched-cohort cutoff-crossing table and reproducer were added. Five storage records exit at 2030 (gross capacity 28.60 Mt/year) versus eight at 2028 (13.45). These are differences in source-reported years, not observed physical delays. Main locked endpoint estimates and author metadata are unchanged.
+No Zenodo DOI is claimed yet. Publish only the curated public archive, then record the verified version-specific DOI. The complete GitHub history and the private journal/author packages are not the proposed Zenodo deposit.

@@ -1,10 +1,16 @@
 cff-version: 1.2.0
-message: "If you use these supporting materials, please cite the associated manuscript and this repository."
-title: "Supporting Data for Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases"
+message: "Please cite the exact version or commit of this research companion and the associated article when published."
+title: "CCUS Schedule-Revision Audit: Code and Aggregate Checks"
 type: dataset
+version: 1.0.0
+date-released: 2026-11-14
+license: CC-BY-4.0
+repository-code: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
+abstract: "Source-available code, synthetic examples and aggregate checks for fixed-baseline CCUS schedule-revision calculations. Licence scope and exclusions are specified in LICENSE_AND_THIRD_PARTY_NOTICE.md. Original project-level sources and private ML inputs are not included."
 authors:
   - family-names: "Malkawi"
     given-names: "Ghassan"
+    orcid: "https://orcid.org/0000-0002-5320-7561"
   - family-names: "Elsayed"
     given-names: "Ahmed Abdelaziz"
   - family-names: "Alnuaimi"
@@ -19,13 +25,8 @@ authors:
     given-names: "Akhtar"
 keywords:
   - CCUS
-  - hydrogen
-  - database versioning
-  - project databases
+  - carbon capture and storage
+  - database releases
   - schedule revision
-  - persistent identifiers
+  - fixed-baseline capacity
   - reproducibility
-  - decarbonization planning
-  - planning horizons
-repository-code: "https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit"
-license: CC-BY-4.0

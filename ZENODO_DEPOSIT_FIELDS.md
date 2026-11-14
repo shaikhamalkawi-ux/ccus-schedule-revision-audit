@@ -1,24 +1,13 @@
-# Zenodo Deposit Fields
+# Zenodo deposit fields and publication boundary
 
-**Resource type:** Dataset
+Prepared archive version: 1.0.0. Record title: **CCUS Schedule-Revision Audit: Code and Aggregate Checks**.
 
-**Title:** Supporting Data for Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases
+Use a manual Zenodo deposit of the allowlisted ZIP produced by `tools/build_public_archive.py`; do not automatically archive the entire repository for this deposit. First search the account for an existing record for this same research object to avoid duplicate deposits. Reuse an appropriate draft, or create a new version of the matching record when required. Do not replace a different study.
 
-**Creators (in order):**
-1. Ghassan Malkawi
-2. Ahmed Abdelaziz Elsayed
-3. Noura Alnuaimi
-4. Hani Abusharkh
-5. Anas Lataifeh
-6. Abdulwehab Ibrahim
-7. Akhtar Khalil
+Metadata are provided in `.zenodo.json`, with the same seven creators and order as `CITATION.cff`. Preserve the existing CC BY 4.0 documentation/derived-data scope and the explicit exclusions in the rights notice; do not assign a new blanket software licence. Do not add fabricated ORCIDs, grant numbers, article DOIs or publication/acceptance claims.
 
-**Licence:** CC BY 4.0
+After publishing, verify the public landing page, version, creators, licence scope, file name and downloaded file checksum. Record the version-specific DOI and, separately, the concept DOI if supplied. A reserved DOI or an unpublished draft is not evidence that the archive is publicly accessible.
 
-**Keywords:** CCUS; hydrogen; database versioning; project databases; schedule revision; persistent identifiers; reproducibility; decarbonization planning; planning horizons
+Only after this verification should the README, citation metadata and manuscript data-availability/reference text say that the materials are archived in Zenodo. Until then, the immutable GitHub commit is the verifiable citation target.
 
-**Description:** Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, source fingerprints, and source-level verification materials for a version-aware same-record audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks.
-
-**GitHub repository:** https://github.com/shaikhamalkawi-ux/ccus-schedule-revision-audit
-
-If Zenodo is used later, add the assigned DOI to the manuscript Data Availability Statement, this repository README, and `CITATION.cff`.
+Official documentation: https://help.zenodo.org/docs/deposit/create-new-upload/ ; https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/ ; https://help.zenodo.org/docs/deposit/manage-versions/

@@ -1,41 +1,19 @@
 {
-  "title": "Supporting Data for Reported Schedule Revisions and the 2030 CCUS Capacity Picture: Evidence from IEA Database Releases",
+  "title": "CCUS Schedule-Revision Audit: Code and Aggregate Checks",
   "upload_type": "dataset",
-  "description": "Derived machine-readable supporting data, provenance records, claim-evidence maps, cross-domain result objects, source fingerprints, and source-level verification materials for a version-aware same-record audit of reported schedule revisions in CCUS project records, with a hydrogen portability test and additional EIA-860M and Berkeley Lab Queued Up checks.",
+  "version": "1.0.0",
+  "publication_date": "2026-11-14",
+  "description": "Source-available code, a five-record synthetic example, expected outputs and previously public aggregate checks supporting Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases. The one-command wrapper recomputes fixed-2025-capacity horizons and cutoff crossings from an already-admitted 2025–2026 cohort; it does not establish source admission or physical delay. Original IEA workbooks, empirical row-level cohorts, coder originals and restricted machine-learning inputs, predictions and fitted objects are excluded. The existing CC BY 4.0 designation applies to the documentation and derived-data layer as specified in the included rights notice; it is not a new blanket software or third-party licence. No journal acceptance or prospective validation is claimed.",
   "creators": [
-    {
-      "name": "Ghassan Malkawi"
-    },
-    {
-      "name": "Ahmed Abdelaziz Elsayed"
-    },
-    {
-      "name": "Noura Alnuaimi"
-    },
-    {
-      "name": "Hani Abusharkh"
-    },
-    {
-      "name": "Anas Lataifeh"
-    },
-    {
-      "name": "Abdulwehab Ibrahim"
-    },
-    {
-      "name": "Akhtar Khalil"
-    }
+    {"name": "Malkawi, Ghassan", "orcid": "0000-0002-5320-7561"},
+    {"name": "Elsayed, Ahmed Abdelaziz"},
+    {"name": "Alnuaimi, Noura"},
+    {"name": "Abusharkh, Hani"},
+    {"name": "Lataifeh, Anas"},
+    {"name": "Ibrahim, Abdulwehab"},
+    {"name": "Khalil, Akhtar"}
   ],
-  "keywords": [
-    "CCUS",
-    "hydrogen",
-    "database versioning",
-    "project databases",
-    "schedule revision",
-    "persistent identifiers",
-    "reproducibility",
-    "decarbonization planning",
-    "planning horizons"
-  ],
+  "keywords": ["CCUS", "carbon capture and storage", "database releases", "schedule revision", "fixed-baseline capacity", "reproducibility"],
   "license": "cc-by-4.0",
   "access_right": "open"
 }

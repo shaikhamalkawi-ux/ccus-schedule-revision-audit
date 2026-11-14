@@ -1,68 +1,52 @@
-# CCUS Schedule-Revision Audit — research companion
+# CCUS Schedule-Revision Audit: Code and Aggregate Checks
 
-**Manuscript:** *Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases*  
-**Journal:** Gases (MDPI), manuscript `gases-4620358` — title-aligned major-revision package R6 T6 prepared 9 November 2026; **not yet resubmitted or accepted**. This public repository retains the earlier R5 aggregate companion, not the private R6 T6 classifier inputs or journal submission package.  
-**Authors:** Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.
+**Companion version:** 1.0.0 (14 November 2026).  
+**Associated manuscript:** *Quantifying 2030 Carbon Capture and Storage Capacity across Database Releases*.  
+**Authors:** Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Noura Alnuaimi; Hani Abusharkh; Anas Lataifeh; Abdulwehab Ibrahim; Akhtar Khalil.  
+**Corresponding author designated in the revised manuscript:** Noura Alnuaimi, nalnuaimi2@hct.ac.ae.
 
-This is the **public, browsable companion** for the study. It is **not** a mirror of the original IEA workbooks or the private coder documentation, and it does not claim to be independently source-replayable from public files alone.
+This source-available research companion makes the existing fixed-baseline 2025–2026 calculations easier to run and check. It does not add a new scientific model, alter manuscript results, establish physical project delays, or imply journal acceptance. Version 1.0.0 adds a one-command entry point, explicit input/output documentation, tested synthetic outputs and a narrowly scoped archive for Zenodo. The underlying two analytical scripts and three research-aggregate CSV files are unchanged.
 
-## Research contribution
+## Run the complete demonstration
 
-A same-record project database may report a different *Operation* year in a new edition even when the source ID and status persist. With baseline announced capacity fixed, these revisions can change a **planning-horizon** quantity; that change is **not by itself** a physical delay or a loss of actual capacity. The sensitivity also changes when planners require readiness in advance of the 2030 horizon.
-
-The method separates source-edition/field-definition changes from portfolio entry/exit, status changes and capacity revisions. Because the *Operation* definition changed after the 2024 edition, the 2025–2026 comparison is the main **same-definition** check; the 2024–2026 contrast is retained as a broader source-field comparison.
-
-Read [What the study contributes](docs/RESEARCH_CONTRIBUTION.md) for the decision-facing principle and claim boundaries.
-
-## Quick start: use the method
-
-All new audit tools use Python 3.10+ and the standard library only.
+Python 3.10 or later; standard library only. From the extracted archive or repository root:
 
 ```bash
 python -m unittest discover -s tests -v
-python tools/readiness_margin.py examples/SYNTHETIC_pairwise_example.csv --output-dir scratch/demo
+python run_audit.py --demo --output-dir demo-output
 ```
 
-The demo is **synthetic**. To reproduce the research aggregates, provide a lawful copy of the already-admitted same-ID / same-status / same-definition matched 2025–2026 cohort using the documented columns; see [the reproduction and input-contract guide](docs/REPRODUCE_READINESS_MARGIN.md).
+The five records are **synthetic, not IEA project records**. Expected outputs are provided in `examples/expected/`. The wrapper checks those files, writes three aggregate CSVs and two provenance/QA JSON files, and refuses to overwrite a non-empty output directory. A passing demo verifies execution on the example, not the empirical CCUS findings.
 
-## New reviewer-driven planning-cutoff analysis
+## Apply the existing calculation to an admitted cohort
 
-The new aggregate results compare *the same functional cohort, fixed 2025 capacity, and the same cutoff* under reported 2025 and 2026 Operation years.
+```bash
+python run_audit.py --input /path/to/matched_cohort.csv --admitted-cohort --output-dir audit-output
+```
 
-| Required cutoff | Capture: 2025 → 2026 (Mt CO2/yr) | Storage: 2025 → 2026 (Mt CO2/yr) |
-| --- | ---: | ---: |
-| By 2030 (0-year margin) | 295.540 → 280.530 (−5.08%) | 547.092 → 519.492 (−5.04%) |
-| By 2029 (1-year margin) | 196.687 → 180.306 (−8.33%) | 330.444 → 301.744 (−8.69%) |
-| By 2028 (2-year margin) | 168.255 → 137.968 (−18.00%) | 287.244 → 273.794 (−4.68%) |
-| By 2027 (3-year margin) | 116.804 → 64.811 (−44.51%) | 203.104 → 131.104 (−35.45%) |
+The input must already satisfy exact-ID linkage, same native status and consistent Operation-field definitions. The tool does **not** link raw source releases or establish those conditions. It checks the CSV contract and runs the fixed-2025-capacity calculation at the 2030, 2029, 2028 and 2027 cutoffs. Use `--check-study-anchors` only with the specific, lawfully obtained 461-record study cohort. See [input contract](docs/INPUT_AND_OUTPUTS.md) and [reproducibility scope](docs/REPRODUCIBILITY_SCOPE.md).
 
-This is a **deterministic margin-of-readiness screen**, **not** a recommended 15–30% contingency, a model of construction delays, or a prediction of realized capture/storage. Large effects at early cutoffs partly reflect portfolio concentration near cutoff years, not a calibrated probability of failure.
+## Recorded study aggregates — not demo results
 
-The same 461-record pairwise cohort has 138 later, 316 unchanged and seven earlier source-reported year revisions. **Capture and storage groups overlap for Full-chain records; do not add their totals.** Source-level denominators with known 2025 capacity: capture 269 records, storage 173.
+| Cutoff | Capture: 2025 → 2026, Mt CO2/year | Storage: 2025 → 2026, Mt CO2/year |
+|---|---:|---:|
+| 2030 | 295.540 → 280.530 | 547.092 → 519.492 |
+| 2029 | 196.687 → 180.306 | 330.444 → 301.744 |
+| 2028 | 168.255 → 137.968 | 287.244 → 273.794 |
+| 2027 | 116.804 → 64.811 | 203.104 → 131.104 |
 
-- [Aggregate cutoff comparison](results/CCUS_2025_2026_Readiness_Margin_AGGREGATE.csv)
-- [Year-field revision histogram](results/CCUS_2025_2026_ReportedYearRevision_HISTOGRAM.csv)
-- [Method and provenance](docs/REPRODUCE_READINESS_MARGIN.md)
-- [Review-stage release notes](docs/RELEASE_NOTES_2026-11-08.md)
+The same-definition cohort has 461 records: 138 later reported years, 316 unchanged and 7 earlier. At 2030, the fixed-2025-capacity changes are −5.08% capture and −5.04% storage. Full-chain records occur in both functional portfolios: **do not add capture and storage totals**. The separate 2024–2026 cross-definition result (371 records; −6.09% capture and −6.78% storage) is not regenerated by this entry point. See the [manuscript result map](docs/RESULT_MAP.md).
 
-## Other supported components
+## Public verification is not complete source replay
 
-Existing `data/` files contain compact CCUS/hydrogen/EIA-860M/Berkeley Lab *Queued Up* audit records and source manifests. They remain **separate, bounded domain checks**. Do not pool their rates into a universal factor. The previous immutable git history and pre-existing companion outputs are retained.
+The public archive provides generic code, synthetic examples, expected outputs and previously public aggregate checks. It excludes original IEA workbooks, row-level empirical cohorts, human-coder originals, private machine-learning features, out-of-fold predictions and fitted models. Aggregate checks cannot recreate those inputs or independently retrain the exploratory classifier. Lawful original inputs and the admission workflow are needed for source-level reproduction. The supplementary materials have a separately declared scope.
 
-**2024–2026 primary result remains unchanged:** 371 endpoint-complete status-stable records, 181 different years (172 later, nine earlier), with −6.09% capture and −6.78% storage under fixed 2024 capacity at 2030. The distinct same-definition 2025–2026 baseline remains −5.08% / −5.04%.
+## Archive and citation
 
-## Research use, rights and citation
+```bash
+python tools/build_public_archive.py --output-dir ../public-release
+```
 
-Archived IEA raw workbooks and human-coder originals are **not redistributed** in this repository. The archive owner has been contacted for clarification of redistribution terms; do not interpret this public companion as permission to publish the original workbooks. See [third-party notice](LICENSE_AND_THIRD_PARTY_NOTICE.md) and [data inventory](DATA_INVENTORY.md).
+This packages **only** `archive_allowlist.txt`, not the entire repository. A SHA-256 manifest is included. Legacy cross-domain files remain browsable under `data/`, but are outside this narrower deposit. Do not upload journal packages, reviewer reports or private author records to Zenodo.
 
-Use [`CITATION.cff`](CITATION.cff) for contributor metadata and the project title. When citing a result, cite the eventual published manuscript/DOI if assigned, the **exact repository commit or release**, and the original IEA CCUS data-edition source. **No Zenodo DOI has been assigned here.** This repository update does not represent journal acceptance, a formal release, or author approval for final resubmission.
-
-## R5 reviewer-driven cutoff-crossing explanation (author-review candidate)
-
-The main question is whether the number of records crossing a cutoff is enough to describe the capacity change. It is not: at the **2030** cutoff, five storage-function records move out (gross exit 28.60 Mt CO2/year) and one moves in (1.00). At the **2028** cutoff, eight move out, but gross exit is only 13.45 with no entries. The top three exiting records represent 71.7% and 62.5% of gross exiting storage capacity at those cutoffs, respectively. The result is specific to reported Operation-year changes in the same 2025–2026 cohort and fixed announced 2025 capacity; it says nothing by itself about physical delays or lost stored CO2.
-
-- [S86 aggregate cutoff-crossing audit](results/CCUS_2025_2026_Cutoff_Crossing_S86_AGGREGATE.csv) — grouped counts and capacity flows; no original IEA rows.
-- [Recompute S86 from an authorized matched cohort](tools/reproduce_s86.py) — Python standard library only.
-- [How to interpret the concentration result](docs/CUTOFF_CROSSING_ANALYSIS_R5.md).
-
-These outputs are retained from the **earlier R5 analytical stage** and are consistent with the quantitative findings carried into R6 T6. The revised manuscript has not yet been accepted or resubmitted to Gases. No Zenodo DOI has been assigned.
+Use `CITATION.cff` and the exact repository commit until a Zenodo record is published. **No Zenodo DOI is claimed in this snapshot.** After deposit, cite its version-specific DOI and the associated article when a publication DOI exists. Metadata are prepared in `.zenodo.json`; see [deposit fields](ZENODO_DEPOSIT_FIELDS.md). Existing author-declared licence scope is preserved in [the rights notice](LICENSE_AND_THIRD_PARTY_NOTICE.md); this update does not grant additional third-party or software rights.
